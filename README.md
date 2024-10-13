@@ -4,6 +4,8 @@ This repository is the official implementation of **V2M: Visual 2-Dimensional Ma
 
 The code is mainly based on Vision Mamba with corresponding modifications.
 
+![Alt text](./framework.png)
+
 ## Environments of training
 
 - Python 3.10.13
@@ -23,7 +25,7 @@ The code is mainly based on Vision Mamba with corresponding modifications.
   
 
 
-## Train Your Vim
+## Train Your V2M
 
 `bash v2m/scripts/pt-vim-t.sh`
 
