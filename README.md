@@ -36,7 +36,9 @@ learning by introducing the prior of enhancing the relevance of adjacent regions
 
 The above code trains V2M based on Vim. Application to other vision mamabs only requires transferring the calculation part of SSM to other frameworks.
 
+## Results
 
+![Alt text](./result.png)
 
 ## Acknowledgement 
 This project is based on Vision Mamba ([code](https://github.com/hustvl/Vim/tree/main)), Mamba ([code](https://github.com/state-spaces/mamba)), Causal-Conv1d ([code](https://github.com/Dao-AILab/causal-conv1d)), DeiT ([code](https://github.com/facebookresearch/deit)). Thanks for their wonderful works.
