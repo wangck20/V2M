@@ -30,9 +30,9 @@ learning by introducing the prior of enhancing the relevance of adjacent regions
 
 ## Train Your V2M
 
-`bash v2m/scripts/pt-vim-t.sh`
+`bash v2m/scripts/tiny.sh`
 
-`bash v2m/scripts/pt-vim-s.sh`
+`bash v2m/scripts/small.sh`
 
 The above code trains V2M based on Vim. Application to other vision mamabs only requires transferring the calculation part of SSM to other frameworks.
 
