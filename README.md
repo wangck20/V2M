@@ -2,7 +2,13 @@
 
 This repository is the official implementation of **V2M: Visual 2-Dimensional Mamba for Image Representation Learning**
 
-The code is mainly based on Vision Mamba with corresponding modifications.
+## The motivation of V2M
+
+![Alt text](./motivation.png)
+Previous vision Mambas processed image tokens with 1D SSM, whereas we extend SSM to a 2D form for more suitable image representation
+learning by introducing the prior of enhancing the relevance of adjacent regions for modeling.
+
+## The framework of V2M
 
 ![Alt text](./framework.png)
 
@@ -21,15 +27,16 @@ The code is mainly based on Vision Mamba with corresponding modifications.
 - Install ``causal_conv1d`` and ``mamba``
   - `pip install -e causal_conv1d>=1.1.0`
   - `pip install -e mamba-1p1p1`
-  
-  
-
 
 ## Train Your V2M
 
 `bash v2m/scripts/pt-vim-t.sh`
 
 `bash v2m/scripts/pt-vim-s.sh`
+
+## Applications to other vision mambas
+
+
 
 
 ## Acknowledgement 
