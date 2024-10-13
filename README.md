@@ -2,13 +2,13 @@
 
 This repository is the official implementation of **V2M: Visual 2-Dimensional Mamba for Image Representation Learning**
 
-## The motivation of V2M
+## Motivation of V2M
 
 ![Alt text](./motivation.png)
 Previous vision Mambas processed image tokens with 1D SSM, whereas we extend SSM to a 2D form for more suitable image representation
 learning by introducing the prior of enhancing the relevance of adjacent regions for modeling.
 
-## The framework of V2M
+## Overall framework of V2M
 
 ![Alt text](./framework.png)
 
@@ -34,8 +34,7 @@ learning by introducing the prior of enhancing the relevance of adjacent regions
 
 `bash v2m/scripts/pt-vim-s.sh`
 
-## Applications to other vision mambas
-
+The above code trains V2M based on Vim. Application to other vision mamabs only requires transferring the calculation part of SSM to other frameworks.
 
 
 
