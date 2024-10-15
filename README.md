@@ -2,6 +2,12 @@
 
 This repository is the official implementation of **V2M: Visual 2-Dimensional Mamba for Image Representation Learning**
 
+## [Paper](http://arxiv.org/abs/2410.10382)
+
+> V2M: Visual 2-Dimensional Mamba for Image Representation Learning
+
+> [Chengkun Wang](https://scholar.google.com/citations?user=69-8jtcAAAAJ&hl=zh-CN&oi=sra), [Wenzhao Zheng](https://wzzheng.net/), [Yuanhui Huang](https://scholar.google.com/citations?hl=zh-CN&user=LKVgsk4AAAAJ), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1), [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/)
+
 ## Motivation of V2M
 
 ![Alt text](./motivation.png)
@@ -42,3 +48,15 @@ The above code trains V2M based on Vim. Application to other vision mamabs only 
 
 ## Acknowledgement 
 This project is based on Vision Mamba ([code](https://github.com/hustvl/Vim/tree/main)), Mamba ([code](https://github.com/state-spaces/mamba)), Causal-Conv1d ([code](https://github.com/Dao-AILab/causal-conv1d)), DeiT ([code](https://github.com/facebookresearch/deit)). Thanks for their wonderful works.
+
+## Citation
+
+If you find this project helpful, please consider citing the following paper:
+```
+@article{wang2024V2M,
+    title={V2M: Visual 2-Dimensional Mamba for Image Representation Learning},
+    author={Chengkun Wang and Wenzhao Zheng and Yuanhui Huang and Jie Zhou and Jiwen Lu},
+    journal={arXiv preprint arXiv:2410.10382},
+    year={2024}
+}
+```
